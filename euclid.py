@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 import math
 
@@ -39,3 +40,5 @@ prediction = 6 / (math.pi**2)
 print("extra挑戦")
 print("予想確率 (6/π^2):", prediction)
 print("計算結果:", probability)
+=======
+>>>>>>> 16fb2edadc9b5b42024f7b7e52b783c22b6dff5f

@@ -1,16 +1,4 @@
-def input_value(prompt):
-    while True:
-        try:
-            value = int(input(prompt))
-            if value <= 0:
-                print("自然数を入力してください")
-            else:
-                return value
-        except ValueError:
-            print("自然数を入力してください")
 
-a = input_value("aの値を入力: ")
-b = input_value("bの値を入力: ")
 
 def prime(n):
     if n <= 1:

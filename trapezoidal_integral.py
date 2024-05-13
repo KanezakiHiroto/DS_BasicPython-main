@@ -1,6 +1,7 @@
 import math
 from math import sin
 
+<<<<<<< HEAD
 def trapezoidal(f, a=0, b=1, n=100):
     h = (b - a) / n
     S = 0
@@ -14,3 +15,5 @@ print("(2):", trapezoidal(lambda x: 4 / (1 + x**2), 0, 1, 100))
 
 print("(3):", trapezoidal(lambda x: math.sqrt(math.pi) *
                           math.exp(-x**2), -100, 100, 1000))
+=======
+>>>>>>> 16fb2edadc9b5b42024f7b7e52b783c22b6dff5f
