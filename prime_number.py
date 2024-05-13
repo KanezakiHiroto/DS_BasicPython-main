@@ -1,7 +1,4 @@
-a = int(input("aの値を入力: "))
-b = int(input("bの値を入力: "))
 
-# TODO
 
 def prime(n):
     if n <= 1:
@@ -26,3 +23,4 @@ if prime(b):
     print(f"b = {b} は素数である")
 else:
     print(f"b = {b} は素数ではない")
+    
