@@ -35,3 +35,4 @@ if prime(b):
     print(f"b = {b} は素数である")
 else:
     print(f"b = {b} は素数ではない")
+    
